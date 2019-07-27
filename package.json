@@ -1,0 +1,28 @@
+{
+  "name": "@daczczcz1/leaflet-areaselect",
+  "version": "1.0.0",
+  "description": "Npm package for https://github.com/heyman/leaflet-areaselect",
+  "main": "src/leaflet-areaselect.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "leaflet": "^1.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daczczcz1/leaflet-areaselect.git"
+  },
+  "keywords": [
+    "leaflet-areaselect"
+  ],
+  "author": "Daniel Czosnek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daczczcz1/leaflet-areaselect/issues"
+  },
+  "homepage": "https://github.com/daczczcz1/leaflet-areaselect#readme"
+}
