@@ -1,6 +1,6 @@
 {
   "name": "@daczczcz1/leaflet-areaselect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Npm package for https://github.com/heyman/leaflet-areaselect",
   "main": "src/leaflet-areaselect.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "jest"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daczczcz1/leaflet-areaselect.git"
