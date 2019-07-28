@@ -1,6 +1,6 @@
 var L = require('leaflet')
 L.AreaSelect = L.Class.extend({
-    includes: L.Mixin.Events,
+    includes: L.Evented.prototype || L.Mixin.Events,
     
     options: {
         width: 200,
@@ -183,3 +183,4 @@ L.AreaSelect = L.Class.extend({
 L.areaSelect = function(options) {
     return new L.AreaSelect(options);
 }
+module.exports = L
