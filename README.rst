@@ -1,3 +1,5 @@
+Note: This is only a fork of a working library made into an npm package for my own convenience. There is no guarantee that it will be up to date with the original (although it seems not to be mantained anymore), will be compatible with current version of Leaflet, will not crash, will not bring the apocalypse, will not pee in your sink. You've been warned
+
 ==================
 Leaflet AreaSelect
 ==================
@@ -7,11 +9,15 @@ using a resizable centered box on top of the map.
 
 .. image:: https://s3-eu-west-1.amazonaws.com/heyman.info/screenshots/leaflet-areaselect.jpg
     :alt: longitude.me
+    
+=================
+Installing
+=================
 
-Another similar plugin is `leaflet-locationfilter <https://github.com/kajic/leaflet-locationfilter/>`_, 
-which solves the same problem but provides a rectangle that is movable and not fixed to the center, 
-but doesn't support keeping the aspect ratio. 
+.. code-block:: bash
 
+    npm install @daczczcz1/leaflet-areaselect
+    
 
 Example Code
 ============
@@ -49,10 +55,15 @@ See it in action
 Check out the `bundled example <http://heyman.github.com/leaflet-areaselect/example/>`_, 
 or `this JSFiddle <http://jsfiddle.net/heyman/3N2DN/>`_ where I've set *keepAspectRatio:true*.
 
-Author
+Credits
 ======
 
-AreaSelect is developed by `Jonatan Heyman <http://heyman.info>`_.
+Original AreaSelect is developed by `Jonatan Heyman <http://heyman.info>`_.
+
+Author
+=====
+
+This fork is mantained by Daniel Czosnek
 
 License
 =======
